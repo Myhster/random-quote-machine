@@ -6,8 +6,8 @@ let quoteDBUrl =
   'https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json';
 
 function App() {
-  const [quote, setQuote] = useState('Love Live');
-  const [author, setAuthor] = useState('Alo');
+  const [quote, setQuote] = useState('Love');
+  const [author, setAuthor] = useState('all');
   const [number, setNumber] = useState(0);
   const [quotesArray, setQuotesArray] = useState(null);
   const [accentColor, setAccentColor] = useState('#4ca2f9');
